@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e1e, #3a3a3a);
+  font-family: 'Press Start 2P', Arial, sans-serif; /* Fuente retro */
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+#game-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #222;
+  padding: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+canvas {
+  background: #111;
+  border: 4px solid #fff;
+  margin-bottom: 20px;
+  image-rendering: pixelated; /* Estilo retro */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.control-btn {
+  background: #0077ff;
+  color: #fff;
+  border: 2px solid #0055cc;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 4px 0px #0055cc;
+  transition: all 0.2s ease;
+  text-transform: uppercase;
+}
+
+.control-btn:hover {
+  background: #0099ff;
+  box-shadow: 0px 4px 0px #0077cc;
+}
+
+.control-btn:active {
+  background: #0055cc;
+  box-shadow: 0px 2px 0px #003399;
+  transform: translateY(2px);
+}
+
+.control-btn:focus {
+  outline: none;
+  box-shadow: 0px 0px 15px #0099ff;
+}
+
+#game-title {
+  font-size: 24px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7), 0px 0px 10px #ffcc00;
+}
+
+#instructions {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #aaa;
+}
