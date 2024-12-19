@@ -14,11 +14,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Ruta para archivos TypeScript transpilados
-app.get("/dist/*", (req, res) => {
-    res.sendFile(path.join(__dirname, "dist", req.params[0]));
-});
-
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });

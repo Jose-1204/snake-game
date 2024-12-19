@@ -14,3 +14,18 @@ dist/: The folder with the transpiled JavaScript code ready to run.
 index.html: Main file where the game gets rendered.
 styles.css: Stylesheet that defines the visual design.
 server.js: A basic server to run the project locally.
+
+Cómo correr el proyecto.
+
+1. Clonar el repositorio.
+
+2. Instalar dependencias.
+npm install
+
+3. Compilar TypeScript.
+tsc
+
+4. Levantar el servidor local.
+node server.js
+
+5. Abrir el juego.
