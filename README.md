@@ -15,17 +15,16 @@ index.html: Main file where the game gets rendered.
 styles.css: Stylesheet that defines the visual design.
 server.js: A basic server to run the project locally.
 
-Cómo correr el proyecto.
+How to run the project. 
+1. Clone the repository. 
 
-1. Clonar el repositorio.
+2. Install dependencies. 
+  npm install 
 
-2. Instalar dependencias.
-npm install
+3. Compile TypeScript. 
+  tsc 
 
-3. Compilar TypeScript.
-tsc
+4. Raise the local server. 
+  node server.js
 
-4. Levantar el servidor local.
-node server.js
-
-5. Abrir el juego.
+5. Open the game.
