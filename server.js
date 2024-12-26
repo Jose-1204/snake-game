@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
-// Servir archivos transpilados desde dist
+
 app.use("/dist", express.static(path.join(__dirname, "dist")));
 
 // Ruta principal
